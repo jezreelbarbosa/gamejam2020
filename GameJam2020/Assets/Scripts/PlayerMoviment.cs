@@ -9,6 +9,8 @@ public class PlayerMoviment : MonoBehaviour
 
     public float speed;
 
+    public float speed;
+
     private float _xAxis;
     private float _zAxis;
     private Rigidbody _rb;
