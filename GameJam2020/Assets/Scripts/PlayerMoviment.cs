@@ -6,14 +6,28 @@ using UnityEngine;
 public class PlayerMoviment : MonoBehaviour
 {
 
-    float Speed;
+    public float speed;
+
+    private float _xAxis;
+    private float _zAxis;
+    private Rigidbody _rb;
+    private RaycastHit _hit;
+    private Vector3 _groundLocation;
+    private bool isCapsLockPressedDown;
+
     void Start()
     {
-        Speed = 5;
+        _rb = GetComponent<Rigidbody>();   
     }
 
     void Update()
     {
-        transform.Translate(Input.GetAxis("Horizontal") * Time.deltaTime * Speed, 0, Input.GetAxis("Vertical") * Time.deltaTime * Speed);
+        _xAxis = Input.GetAxis("Horizontal");
+        _zAxis = Input.GetAxis("Vertical");
+    }
+
+    private void FixedUpdate()
+    {
+        _rb.MovePosition(transform.position + Time.deltaTime * speed * transform.TransformDirection(_xAxis, 0f, _zAxis));
     }
 }
