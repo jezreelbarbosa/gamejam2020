@@ -5,15 +5,11 @@ using UnityEngine;
 
 public class PlayerMoviment : MonoBehaviour
 {
-
-    float Speed;
-    void Start()
-    {
-        Speed = 5;
-    }
-
+    public Animator animator; 
+        
     void Update()
     {
-        transform.Translate(Input.GetAxis("Horizontal") * Time.deltaTime * Speed, 0, Input.GetAxis("Vertical") * Time.deltaTime * Speed);
+        animator.SetFloat("vertical",Input.GetAxis("Vertical"));
+        animator.SetFloat("horizontal",Input.GetAxis("Horizontal"));
     }
 }
