@@ -18,10 +18,10 @@ public class PlayerMoviment : MonoBehaviour
     void FixedUpdate () {
         rb.velocity = new Vector3 (mH * speed* Time.deltaTime, rb.velocity.y, mV * speed* Time.deltaTime) ;
     }
-    //void Update()
-    //{
-    //    transform.position = new Vector3(h, 0, v) * speed * Time.deltaTime;
-    //    anima.SetBool("run",Input.GetButton("Vertical")||Input.GetButton("Horizontal")); 
-    //    anima.SetBool("carry",Input.GetKey(KeyCode.Space));        
-    //}
+    void Update()
+    {
+        transform.position = new Vector3(mH, 0, mV) * speed * Time.deltaTime;
+        anima.SetBool("run",Input.GetButton("Vertical")||Input.GetButton("Horizontal")); 
+        anima.SetBool("carry",Input.GetKey(KeyCode.Space));        
+    }
 }

@@ -2,17 +2,20 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class CameraController : MonoBehaviour
 {
+    public Animator anima;
     public float speed;
     public float rotationSpeed;
-    public GameObject mainCamera;
+    public Camera mainCamera;
 
     private Rigidbody rb;
 
     void Start()
     {
         rb = GetComponent<Rigidbody>();
+        mainCamera = Camera.main;
     }
 
     void FixedUpdate()
@@ -31,5 +34,10 @@ public class CameraController : MonoBehaviour
         {
             transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(movement.normalized), rotationSpeed);
         }
+    }
+    void Update()
+    {
+        anima.SetBool("run",Input.GetButton("Vertical")||Input.GetButton("Horizontal")); 
+        anima.SetBool("carry",Input.GetKey(KeyCode.Space));        
     }
 }
