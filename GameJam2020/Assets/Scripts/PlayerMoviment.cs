@@ -12,7 +12,9 @@ public class PlayerMoviment : MonoBehaviour
     }
     void Update()
     {
-        anima.SetFloat("Vertical",Input.GetAxis("vertical"));
-        anima.SetFloat("Horizontal",Input.GetAxis("Horizontal"));
+        anima.SetBool("run",Input.GetButton("Vertical")||Input.GetButton("Horizontal"));
+        Debug.Log(Input.GetButton("Vertical"));
+        anima.SetBool("carry",Input.GetKey(KeyCode.Space));
+
     }
 }
