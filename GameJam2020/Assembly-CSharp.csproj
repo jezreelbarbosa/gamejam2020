@@ -38,6 +38,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\ActionableObject.cs" />
      <Compile Include="Assets\Scripts\CameraController.cs" />
+     <Compile Include="Assets\Scripts\CameraSeguir.cs" />
      <Compile Include="Assets\Scripts\PlayerMoviment.cs" />
     <Reference Include="UnityEngine">
         <HintPath>/Users/geovanedacostajunior/Documents/Unity/2019.4.12f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
