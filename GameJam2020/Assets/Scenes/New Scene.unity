@@ -197,8 +197,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 26535116}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -75.8, y: -1283, z: 1788}
+  m_LocalRotation: {x: -0.120330535, y: 0.3205614, z: -0.041097123, w: -0.93865436}
+  m_LocalPosition: {x: -59.43404, y: 43.194717, z: -72.40502}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -219,7 +219,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 01b0354be9fea406a8ed8fe241eeba36,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 14.728808
+      value: 33.28
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 01b0354be9fea406a8ed8fe241eeba36,
         type: 3}
@@ -269,17 +269,17 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 01b0354be9fea406a8ed8fe241eeba36,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 10
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 01b0354be9fea406a8ed8fe241eeba36,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 10
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 01b0354be9fea406a8ed8fe241eeba36,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 10
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: -927199367670048503, guid: 01b0354be9fea406a8ed8fe241eeba36,
         type: 3}
@@ -294,6 +294,20 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1583907527}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1660281895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1660281894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ea84d7b418bdde469619730136e6b29, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0
+  anima: {fileID: 0}
 --- !u!95 &1660281896
 Animator:
   serializedVersion: 3
@@ -302,7 +316,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1660281894}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 02fb456aba21a4d428f82899f001ddab, type: 2}
   m_CullingMode: 0
