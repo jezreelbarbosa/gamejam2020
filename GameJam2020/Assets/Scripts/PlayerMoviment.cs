@@ -16,7 +16,7 @@ public class PlayerMoviment : MonoBehaviour
     rb = GetComponent<Rigidbody>();
     }
     void FixedUpdate () {
-        rb.velocity = new Vector3 (mH * speed, rb.velocity.y, mV * speed) * Time.deltaTime;
+        rb.velocity = new Vector3 (mH * speed* Time.deltaTime, rb.velocity.y, mV * speed* Time.deltaTime) ;
     }
     //void Update()
     //{
