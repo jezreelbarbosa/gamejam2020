@@ -3,13 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
+
 public class CameraController : MonoBehaviour
 {
+    public GameObject cube;
     public Animator anima;
     public float speed;
     public float rotationSpeed;
     public Camera mainCamera;
-//
     private Rigidbody rb;
 
     void Start()
@@ -38,6 +39,11 @@ public class CameraController : MonoBehaviour
     void Update()
     {
         anima.SetBool("run",Input.GetButton("Vertical")||Input.GetButton("Horizontal")); 
-        anima.SetBool("carry",Input.GetKey(KeyCode.Space));        
+        anima.SetBool("carry",Input.GetKey(KeyCode.Space));
+        if (Input.GetKey(KeyCode.Space)){
+            cube.transform.SetParent(gameObject.transform);
+            cube.transform.localPosition = new Vector3(0.0046f, 0.0841f, 0.0683f);
+            cube.transform.Rotate(Vector3.forward);
+        }        
     }
 }
