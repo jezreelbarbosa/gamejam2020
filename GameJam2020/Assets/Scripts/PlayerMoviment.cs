@@ -5,8 +5,8 @@ using UnityEngine;
 
 public class PlayerMoviment : MonoBehaviour
 {    
-    float h = Input.GetAxis("Horizontal");
-    float v = Input.GetAxis("Vertical");
+    float mH = Input.GetAxis("Horizontal");
+    float mV = Input.GetAxis("Vertical");
     public float speed = 5f;
     public Animator anima;
     Rigidbody rb;
@@ -16,9 +16,7 @@ public class PlayerMoviment : MonoBehaviour
     rb = GetComponent<Rigidbody>();
     }
     void FixedUpdate () {
-    float mH = Input.GetAxis ("Horizontal");
-    float mV = Input.GetAxis ("Vertical");
-    rb.velocity = new Vector3 (mH * speed, rb.velocity.y, mV * speed);
+        rb.velocity = new Vector3 (mH * speed, rb.velocity.y, mV * speed) * Time.deltaTime;
     }
     //void Update()
     //{
