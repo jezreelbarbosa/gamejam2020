@@ -21,18 +21,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2091112478, guid: f973a71195a132e4683825f9557c63c9, type: 3}
-      propertyPath: m_Constraints
-      value: 112
-      objectReference: {fileID: 0}
-    - target: {fileID: 2091112478, guid: f973a71195a132e4683825f9557c63c9, type: 3}
-      propertyPath: m_Mass
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2091112481, guid: f973a71195a132e4683825f9557c63c9, type: 3}
-      propertyPath: speed
-      value: 2.5
-      objectReference: {fileID: 0}
     - target: {fileID: 373617895193459743, guid: f973a71195a132e4683825f9557c63c9,
         type: 3}
       propertyPath: m_Materials.Array.data[0]

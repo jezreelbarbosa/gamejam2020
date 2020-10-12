@@ -8,14 +8,14 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7921230188115183577}
   serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Mass: 80
+  m_Drag: 5
+  m_AngularDrag: 0
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 4
-  m_CollisionDetection: 0
+  m_Constraints: 112
+  m_CollisionDetection: 3
 --- !u!95 &2091112479
 Animator:
   serializedVersion: 3
@@ -48,9 +48,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anima: {fileID: 2091112479}
-  speed: 5
-  rotationSpeed: 1
-  mainCamera: {fileID: 0}
+  speed: 1.8
+  rotationSpeed: 0.5
 --- !u!1001 &2219203646145142480
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -131,7 +130,7 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: 227862a66d2864d408a8541a01705b8e,
         type: 3}
       propertyPath: m_Name
-      value: Personagem
+      value: Personagem Variant
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 227862a66d2864d408a8541a01705b8e, type: 3}
