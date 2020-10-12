@@ -69,6 +69,7 @@
     <Compile Include="Assets\Scripts\CameraSeguir.cs" />
     <Compile Include="Assets\Scripts\Damageble.cs" />
     <Compile Include="Assets\Scripts\HealthPoints.cs" />
+    <Compile Include="Assets\Scripts\MonsterDeath.cs" />
     <Compile Include="Assets\Scripts\Shooter.cs" />
     <Reference Include="UnityEngine">
       <HintPath>/Applications/Unity/Hub/Editor/2019.4.12f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>

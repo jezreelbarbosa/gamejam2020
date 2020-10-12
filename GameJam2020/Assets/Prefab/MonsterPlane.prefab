@@ -13,8 +13,9 @@ GameObject:
   - component: {fileID: 8992177041797668986}
   - component: {fileID: 8992177041797668987}
   - component: {fileID: 5603482443211677546}
+  - component: {fileID: 6770541709969804413}
   m_Layer: 0
-  m_Name: Monster
+  m_Name: MonsterPlane
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -109,3 +110,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   points: 20
   isDead: 0
+--- !u!114 &6770541709969804413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8992177041797668988}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c0b0fc0b7c1f4ee58a98b20c1655d06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 1
