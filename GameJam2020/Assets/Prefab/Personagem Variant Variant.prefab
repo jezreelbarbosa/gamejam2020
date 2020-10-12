@@ -21,6 +21,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2091112481, guid: f973a71195a132e4683825f9557c63c9, type: 3}
+      propertyPath: speed
+      value: 1.5
+      objectReference: {fileID: 0}
     - target: {fileID: 373617895193459743, guid: f973a71195a132e4683825f9557c63c9,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -115,6 +119,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.845
+      objectReference: {fileID: 0}
+    - target: {fileID: 7921230188115183577, guid: f973a71195a132e4683825f9557c63c9,
+        type: 3}
+      propertyPath: m_Name
+      value: Personagem Variant Variant
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f973a71195a132e4683825f9557c63c9, type: 3}

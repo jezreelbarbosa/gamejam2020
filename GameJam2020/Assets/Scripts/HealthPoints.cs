@@ -9,8 +9,11 @@ public class HealthPoints : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        Damageble damageble = collision.collider.GetComponent<Damageble>();
-        points -= damageble.damage;
+        if (points > 0)
+        {
+            Damageble damageble = collision.collider.GetComponent<Damageble>();
+            points -= damageble.damage;
+        }
 
         if (points <= 0)
         {
