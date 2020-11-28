@@ -69,7 +69,7 @@ Material:
     - Vector4_44EBD7F4: {r: 0, g: 0, b: 0, a: 0}
     - WaveDirection: {r: 10, g: 10, b: 0, a: 0}
     - WaveForm: {r: 0.15, g: 0.1, b: 0, a: 0}
-    - _DephtColor: {r: 0, g: 0.91849303, b: 1, a: 1}
-    - _WaterA: {r: 0.3443396, g: 0.79742503, b: 1, a: 0}
+    - _DephtColor: {r: 0, g: 0, b: 0, a: 1}
+    - _WaterA: {r: 0.3443396, g: 0.79742503, b: 1, a: 1}
     - _WaterB: {r: 0.19339621, g: 0.8541749, b: 1, a: 1}
     - _WavesFrequence: {r: 0.1, g: -0.03, b: 0, a: 0}
