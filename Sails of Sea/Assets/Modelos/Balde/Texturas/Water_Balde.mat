@@ -51,13 +51,13 @@ Material:
     - _FoamTile: 1
     - _ForamTile: 0
     - _Metallic: 0.5
-    - _NormalStrenght: 0.28
-    - _NormalTile: 0.16
-    - _Smoothness: 0.7
+    - _NormalStrenght: 0.19
+    - _NormalTile: 0.05
+    - _Smoothness: 1
     - _Specular: 0.6
     - _WaterScale: 0.19
     - _WaterSpeed: 0.2
-    - _WaterStrenght: 2.96
+    - _WaterStrenght: -30
     - _WaterTile: 7.66
     - _foamScale: 0.05
     - _normalSpeed: 0.28
@@ -67,9 +67,9 @@ Material:
     - Vector2_44C3F04F: {r: 1, g: 1, b: 0, a: 0}
     - Vector2_86199082: {r: 1.24, g: 3, b: 0, a: 0}
     - Vector4_44EBD7F4: {r: 0, g: 0, b: 0, a: 0}
-    - WaveDirection: {r: 0.51, g: 0, b: 0, a: 0}
+    - WaveDirection: {r: 0.001, g: 0, b: 0, a: 0}
     - WaveForm: {r: 0, g: 0, b: 0, a: 0}
     - _DephtColor: {r: 0, g: 0, b: 0, a: 1}
-    - _WaterA: {r: 0, g: 0.5987791, b: 0.6132076, a: 1}
-    - _WaterB: {r: 0, g: 0.4241778, b: 0.5754717, a: 1}
+    - _WaterA: {r: 0, g: 0.6117647, b: 0.41060746, a: 1}
+    - _WaterB: {r: 0, g: 0.5764706, b: 0.12957993, a: 1}
     - _WavesFrequence: {r: 0.1, g: -0.03, b: 0, a: 0}
