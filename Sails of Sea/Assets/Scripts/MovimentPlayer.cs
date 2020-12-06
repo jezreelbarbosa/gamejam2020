@@ -4,14 +4,14 @@ using UnityEngine;
 
 public class MovimentPlayer : MonoBehaviour
 {
-
+    
     public CharacterController controller;
 
     public Transform cam;
 
-    public float speed = 6f;
+    public float speed = 100f;
 
-    public float turnSmoothTime = 0.1f;
+    public float turnSmoothTime = 0.5f;
     float turnSmoothVelocity;
     
     void Start()
@@ -24,6 +24,8 @@ public class MovimentPlayer : MonoBehaviour
         float horizontal = Input.GetAxisRaw("Horizontal");
         float vertical = Input.GetAxisRaw("Vertical");
         Vector3 direction = new Vector3(horizontal,0f,vertical).normalized;
+        Vector3 inputDirection = new Vector3(horizontal,0f,vertical);
+        Vector3 transformDirection = transform.TransformDirection(inputDirection);
         if (direction.magnitude >= 0.1f){
             float targetAngle = Mathf.Atan2(direction.x, direction.z) * Mathf.Rad2Deg + cam.eulerAngles.y;
             float angle = Mathf.SmoothDampAngle(transform.eulerAngles.y, targetAngle, ref turnSmoothVelocity, turnSmoothTime );
@@ -32,5 +34,8 @@ public class MovimentPlayer : MonoBehaviour
             Vector3 movDir = Quaternion.Euler(0f, targetAngle,0f) * Vector3.forward;
             controller.Move(movDir.normalized *speed * Time.deltaTime );
         }
+        
+
     }
+    
 }
