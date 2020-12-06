@@ -55,9 +55,9 @@ Material:
     - _NormalTile: 0.05
     - _Smoothness: 1
     - _Specular: 0.6
-    - _WaterScale: 0.19
-    - _WaterSpeed: 0.2
-    - _WaterStrenght: 9
+    - _WaterScale: 0
+    - _WaterSpeed: 0
+    - _WaterStrenght: 0
     - _WaterTile: 7.66
     - _foamScale: 0.05
     - _normalSpeed: 0.28
@@ -67,7 +67,7 @@ Material:
     - Vector2_44C3F04F: {r: 1, g: 1, b: 0, a: 0}
     - Vector2_86199082: {r: 1.24, g: 3, b: 0, a: 0}
     - Vector4_44EBD7F4: {r: 0, g: 0, b: 0, a: 0}
-    - WaveDirection: {r: 0.001, g: 0, b: 0, a: 0}
+    - WaveDirection: {r: 0, g: 0, b: 0, a: 0}
     - WaveForm: {r: 0, g: 0, b: 0, a: 0}
     - _DephtColor: {r: 0, g: 0, b: 0, a: 1}
     - _WaterA: {r: 0, g: 0.6117647, b: 0.41060746, a: 1}
