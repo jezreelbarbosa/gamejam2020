@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &1613513899420389444
+--- !u!1 &1395531500073135330
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,45 +8,45 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4797618518192000788}
-  - component: {fileID: 3218324085483496661}
-  - component: {fileID: 2964940619898842327}
+  - component: {fileID: 513973376521275499}
+  - component: {fileID: 7737417591356897936}
+  - component: {fileID: 2407635247234001852}
   m_Layer: 0
-  m_Name: pCylinder4
+  m_Name: Bala
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4797618518192000788
+--- !u!4 &513973376521275499
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1613513899420389444}
+  m_GameObject: {fileID: 1395531500073135330}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 2133595570058607291}
+  m_Father: {fileID: 2529942093758089223}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &3218324085483496661
+--- !u!33 &7737417591356897936
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1613513899420389444}
-  m_Mesh: {fileID: 8211372540250625004, guid: a34753811d2c945dc985cc133ee4a3d6, type: 3}
---- !u!23 &2964940619898842327
+  m_GameObject: {fileID: 1395531500073135330}
+  m_Mesh: {fileID: -5935183966553940996, guid: f9293a9c86f1d4fa4bb2cae88c705bed, type: 3}
+--- !u!23 &2407635247234001852
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1613513899420389444}
+  m_GameObject: {fileID: 1395531500073135330}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -58,7 +58,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 6163b54d85f5d4599a7dcb55bf3e5f20, type: 2}
+  - {fileID: 2100000, guid: 85091a612b19c4e47b2cad5943cb550d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -79,7 +79,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!1 &4444637749552875089
+--- !u!1 &2907065049030988477
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -87,26 +87,57 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 2133595570058607291}
+  - component: {fileID: 2529942093758089223}
+  - component: {fileID: 2636454693183536627}
+  - component: {fileID: 2636454693183536626}
   m_Layer: 0
-  m_Name: Barril
+  m_Name: Bala
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &2133595570058607291
+--- !u!4 &2529942093758089223
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4444637749552875089}
-  m_LocalRotation: {x: 0, y: -0.60320795, z: 0, w: 0.797584}
-  m_LocalPosition: {x: 41.49, y: -5.1, z: -32.94}
+  m_GameObject: {fileID: 2907065049030988477}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: 47.68, y: -6.109521, z: -37.65}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 4797618518192000788}
+  - {fileID: 513973376521275499}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: -74.2, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!54 &2636454693183536627
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2907065049030988477}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!135 &2636454693183536626
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2907065049030988477}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.40322828
+  m_Center: {x: 0.0019721985, y: 0.19705534, z: 0}
