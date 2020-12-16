@@ -1,9 +1,29 @@
 fileFormatVersion: 2
-guid: c1239458503e14ac8bf1db5e20115257
+guid: 9df1aa5e5241c4f079d8c9eae791b0ff
 ModelImporter:
   serializedVersion: 19301
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Corpo1
+    second: {fileID: 2100000, guid: 7f2279fd7415b4a39a841ab8d639b76b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Olhos2
+    second: {fileID: 2100000, guid: a76b2e88c145649b99b4514df1227b6c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roupa1
+    second: {fileID: 2100000, guid: 497ad7df9de1b4b49b08c43599e95482, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert5
+    second: {fileID: 2100000, guid: d8412298a180e49c78f37c29f1c549d4, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
@@ -34,7 +54,7 @@ ModelImporter:
     isReadable: 0
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 115
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
@@ -81,7 +101,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 1
+    globalScale: 115
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
