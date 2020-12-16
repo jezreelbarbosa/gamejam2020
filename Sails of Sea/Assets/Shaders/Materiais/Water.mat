@@ -50,7 +50,7 @@ Material:
     - _FoamStrenght: 0.0089
     - _FoamTile: 1
     - _ForamTile: 0
-    - _Metallic: 0.5
+    - _Metallic: 0.68
     - _NormalStrenght: 0.1
     - _NormalTile: 0.01
     - _Smoothness: 1
@@ -70,6 +70,6 @@ Material:
     - WaveDirection: {r: 10, g: 10, b: 0, a: 0}
     - WaveForm: {r: 0.15, g: 0.1, b: 0, a: 0}
     - _DephtColor: {r: 0, g: 0, b: 0, a: 1}
-    - _WaterA: {r: 0, g: 0.5987791, b: 0.6132076, a: 1}
-    - _WaterB: {r: 0, g: 0.4241778, b: 0.5754717, a: 1}
+    - _WaterA: {r: 0, g: 0.63818, b: 0.6509434, a: 1}
+    - _WaterB: {r: 0, g: 0.73333335, b: 1, a: 1}
     - _WavesFrequence: {r: 0.1, g: -0.03, b: 0, a: 0}
