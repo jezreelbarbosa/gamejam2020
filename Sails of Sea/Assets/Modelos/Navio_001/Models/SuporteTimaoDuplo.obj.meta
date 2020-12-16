@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 884285935ac3144498087f881bc281bc
+guid: 62fb11f6050e84859a495b30284813f4
 ModelImporter:
   serializedVersion: 19301
   internalIDToNameTable: []
@@ -7,13 +7,8 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: PortaEMoldura_Low_MolduraMat
-    second: {fileID: 2100000, guid: ee66aca1079ef4cbc83155a8b4fb316e, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: PortaEMoldura_Low_MolduraPortaMat
-    second: {fileID: 2100000, guid: ee66aca1079ef4cbc83155a8b4fb316e, type: 2}
+      name: Timao_Low_Suporte_Timao_Duplo_group1Mat
+    second: {fileID: 2100000, guid: 021c466476bd04d67a0c77915c6f51da, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
