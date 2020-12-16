@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ad220c6996b53497b9b207c7dc499b99
+guid: 6cc9c958d232f4243a68ac03359bac2c
 ModelImporter:
   serializedVersion: 19301
   internalIDToNameTable: []
@@ -7,8 +7,8 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: CararroMat
-    second: {fileID: 2100000, guid: f8e01afd2f9954824bdd95375251c642, type: 2}
+      name: Madeira_GrandeMat
+    second: {fileID: 2100000, guid: abdece3aca1ae4867bd3048cbfbd6938, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ad220c6996b53497b9b207c7dc499b99
+guid: 2524b7f0b85514ec7a55c880a01675ad
 ModelImporter:
   serializedVersion: 19301
   internalIDToNameTable: []
@@ -7,8 +7,13 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: CararroMat
-    second: {fileID: 2100000, guid: f8e01afd2f9954824bdd95375251c642, type: 2}
+      name: PortaMat
+    second: {fileID: 2100000, guid: ee66aca1079ef4cbc83155a8b4fb316e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Porta_MolduraPortaMat
+    second: {fileID: 2100000, guid: ee66aca1079ef4cbc83155a8b4fb316e, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0

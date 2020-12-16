@@ -3,7 +3,17 @@ guid: fb2c0f01eee6c49429ca13c03a9e1669
 ModelImporter:
   serializedVersion: 19301
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mastro_PequenoMat
+    second: {fileID: 2100000, guid: f8e01afd2f9954824bdd95375251c642, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mastro_Pequeno_Mastro_GrandeSuporte_de_Cordas5Mat
+    second: {fileID: 2100000, guid: f8e01afd2f9954824bdd95375251c642, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
