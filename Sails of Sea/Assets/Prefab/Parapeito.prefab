@@ -1,0 +1,659 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5271143734743849703
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1977641332311833688}
+  - component: {fileID: 3761405366531090089}
+  m_Layer: 0
+  m_Name: Parapeito
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1977641332311833688
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5271143734743849703}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 474967958434943359}
+  - {fileID: 1856168562684264557}
+  - {fileID: 6929183706422091106}
+  - {fileID: 8586687723040824501}
+  - {fileID: 524913432555005864}
+  - {fileID: 6034123321728781254}
+  - {fileID: 5489431028475195369}
+  - {fileID: 7934772999144581883}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &3761405366531090089
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5271143734743849703}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 13.463916, y: 3.4469051, z: 1.1111832}
+  m_Center: {x: 0.0000042915344, y: 7.3024874, z: -11.487265}
+--- !u!1001 &54716651298930755
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1977641332311833688}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: b78ea9790251f48c99c56bb717f7e660,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.89
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b78ea9790251f48c99c56bb717f7e660,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.1000004
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b78ea9790251f48c99c56bb717f7e660,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -11.48
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b78ea9790251f48c99c56bb717f7e660,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b78ea9790251f48c99c56bb717f7e660,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b78ea9790251f48c99c56bb717f7e660,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b78ea9790251f48c99c56bb717f7e660,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b78ea9790251f48c99c56bb717f7e660,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b78ea9790251f48c99c56bb717f7e660,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b78ea9790251f48c99c56bb717f7e660,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b78ea9790251f48c99c56bb717f7e660,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b78ea9790251f48c99c56bb717f7e660,
+        type: 3}
+      propertyPath: m_Name
+      value: Madeira Suporte 2 (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b78ea9790251f48c99c56bb717f7e660, type: 3}
+--- !u!4 &524913432555005864 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: b78ea9790251f48c99c56bb717f7e660,
+    type: 3}
+  m_PrefabInstance: {fileID: 54716651298930755}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &80455294559745684
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1977641332311833688}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: ad6f2724575ff47339ee71ea8ac1523d,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.0035095215
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ad6f2724575ff47339ee71ea8ac1523d,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 8.87
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ad6f2724575ff47339ee71ea8ac1523d,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -11.42
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ad6f2724575ff47339ee71ea8ac1523d,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ad6f2724575ff47339ee71ea8ac1523d,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ad6f2724575ff47339ee71ea8ac1523d,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ad6f2724575ff47339ee71ea8ac1523d,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ad6f2724575ff47339ee71ea8ac1523d,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ad6f2724575ff47339ee71ea8ac1523d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ad6f2724575ff47339ee71ea8ac1523d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ad6f2724575ff47339ee71ea8ac1523d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ad6f2724575ff47339ee71ea8ac1523d,
+        type: 3}
+      propertyPath: m_Name
+      value: Madeira_Suporte 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ad6f2724575ff47339ee71ea8ac1523d, type: 3}
+--- !u!4 &474967958434943359 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: ad6f2724575ff47339ee71ea8ac1523d,
+    type: 3}
+  m_PrefabInstance: {fileID: 80455294559745684}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2182229333483349894
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1977641332311833688}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 5e2cc3fe03e644f3aa901ac305276dde,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.06
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5e2cc3fe03e644f3aa901ac305276dde,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.22
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5e2cc3fe03e644f3aa901ac305276dde,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -11.32
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5e2cc3fe03e644f3aa901ac305276dde,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5e2cc3fe03e644f3aa901ac305276dde,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5e2cc3fe03e644f3aa901ac305276dde,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5e2cc3fe03e644f3aa901ac305276dde,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5e2cc3fe03e644f3aa901ac305276dde,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5e2cc3fe03e644f3aa901ac305276dde,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5e2cc3fe03e644f3aa901ac305276dde,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5e2cc3fe03e644f3aa901ac305276dde,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5e2cc3fe03e644f3aa901ac305276dde,
+        type: 3}
+      propertyPath: m_Name
+      value: Madeira Suporte 3
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5e2cc3fe03e644f3aa901ac305276dde, type: 3}
+--- !u!4 &1856168562684264557 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5e2cc3fe03e644f3aa901ac305276dde,
+    type: 3}
+  m_PrefabInstance: {fileID: 2182229333483349894}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5450720124014692354
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1977641332311833688}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 5e2cc3fe03e644f3aa901ac305276dde,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.92
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5e2cc3fe03e644f3aa901ac305276dde,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.44
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5e2cc3fe03e644f3aa901ac305276dde,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -11.4
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5e2cc3fe03e644f3aa901ac305276dde,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5e2cc3fe03e644f3aa901ac305276dde,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5e2cc3fe03e644f3aa901ac305276dde,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5e2cc3fe03e644f3aa901ac305276dde,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5e2cc3fe03e644f3aa901ac305276dde,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5e2cc3fe03e644f3aa901ac305276dde,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5e2cc3fe03e644f3aa901ac305276dde,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5e2cc3fe03e644f3aa901ac305276dde,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5e2cc3fe03e644f3aa901ac305276dde,
+        type: 3}
+      propertyPath: m_Name
+      value: Madeira Suporte 3 (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5e2cc3fe03e644f3aa901ac305276dde, type: 3}
+--- !u!4 &5489431028475195369 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5e2cc3fe03e644f3aa901ac305276dde,
+    type: 3}
+  m_PrefabInstance: {fileID: 5450720124014692354}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6068383127912721453
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1977641332311833688}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 097d358ab7a1343799e8363bc966f108,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.88
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 097d358ab7a1343799e8363bc966f108,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.100001
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 097d358ab7a1343799e8363bc966f108,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -11.43
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 097d358ab7a1343799e8363bc966f108,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 097d358ab7a1343799e8363bc966f108,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 097d358ab7a1343799e8363bc966f108,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 097d358ab7a1343799e8363bc966f108,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 097d358ab7a1343799e8363bc966f108,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 097d358ab7a1343799e8363bc966f108,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 097d358ab7a1343799e8363bc966f108,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 097d358ab7a1343799e8363bc966f108,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 097d358ab7a1343799e8363bc966f108,
+        type: 3}
+      propertyPath: m_Name
+      value: Madeira Suporte 1 (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 097d358ab7a1343799e8363bc966f108, type: 3}
+--- !u!4 &6034123321728781254 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 097d358ab7a1343799e8363bc966f108,
+    type: 3}
+  m_PrefabInstance: {fileID: 6068383127912721453}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7468057399342660233
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1977641332311833688}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 097d358ab7a1343799e8363bc966f108,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 097d358ab7a1343799e8363bc966f108,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.54
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 097d358ab7a1343799e8363bc966f108,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -11.26
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 097d358ab7a1343799e8363bc966f108,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 097d358ab7a1343799e8363bc966f108,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 097d358ab7a1343799e8363bc966f108,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 097d358ab7a1343799e8363bc966f108,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 097d358ab7a1343799e8363bc966f108,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 097d358ab7a1343799e8363bc966f108,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 097d358ab7a1343799e8363bc966f108,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 097d358ab7a1343799e8363bc966f108,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 097d358ab7a1343799e8363bc966f108,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8625
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 097d358ab7a1343799e8363bc966f108,
+        type: 3}
+      propertyPath: m_Name
+      value: Madeira Suporte 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 097d358ab7a1343799e8363bc966f108, type: 3}
+--- !u!4 &6929183706422091106 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 097d358ab7a1343799e8363bc966f108,
+    type: 3}
+  m_PrefabInstance: {fileID: 7468057399342660233}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7608624303338343696
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1977641332311833688}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 5e2cc3fe03e644f3aa901ac305276dde,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.78
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5e2cc3fe03e644f3aa901ac305276dde,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.45
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5e2cc3fe03e644f3aa901ac305276dde,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -11.57
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5e2cc3fe03e644f3aa901ac305276dde,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5e2cc3fe03e644f3aa901ac305276dde,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5e2cc3fe03e644f3aa901ac305276dde,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5e2cc3fe03e644f3aa901ac305276dde,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5e2cc3fe03e644f3aa901ac305276dde,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5e2cc3fe03e644f3aa901ac305276dde,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5e2cc3fe03e644f3aa901ac305276dde,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5e2cc3fe03e644f3aa901ac305276dde,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5e2cc3fe03e644f3aa901ac305276dde,
+        type: 3}
+      propertyPath: m_Name
+      value: Madeira Suporte 3 (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5e2cc3fe03e644f3aa901ac305276dde, type: 3}
+--- !u!4 &7934772999144581883 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5e2cc3fe03e644f3aa901ac305276dde,
+    type: 3}
+  m_PrefabInstance: {fileID: 7608624303338343696}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8115683891256441694
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1977641332311833688}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: b78ea9790251f48c99c56bb717f7e660,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.98
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b78ea9790251f48c99c56bb717f7e660,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.32
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b78ea9790251f48c99c56bb717f7e660,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -11.260002
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b78ea9790251f48c99c56bb717f7e660,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b78ea9790251f48c99c56bb717f7e660,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b78ea9790251f48c99c56bb717f7e660,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b78ea9790251f48c99c56bb717f7e660,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b78ea9790251f48c99c56bb717f7e660,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b78ea9790251f48c99c56bb717f7e660,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b78ea9790251f48c99c56bb717f7e660,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b78ea9790251f48c99c56bb717f7e660,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b78ea9790251f48c99c56bb717f7e660,
+        type: 3}
+      propertyPath: m_Name
+      value: Madeira Suporte 2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b78ea9790251f48c99c56bb717f7e660, type: 3}
+--- !u!4 &8586687723040824501 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: b78ea9790251f48c99c56bb717f7e660,
+    type: 3}
+  m_PrefabInstance: {fileID: 8115683891256441694}
+  m_PrefabAsset: {fileID: 0}

@@ -3,7 +3,12 @@ guid: 2745508fe895348b499c4ab4fef5d5ec
 ModelImporter:
   serializedVersion: 19301
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Canhao_SuporteMat
+    second: {fileID: 2100000, guid: 7a302be3fde7b4df8bb995726b321b81, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0

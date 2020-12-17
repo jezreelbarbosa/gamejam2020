@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Water
-  m_Shader: {fileID: -6465566751694194690, guid: 5a59c04796918444583cd2ae28d5ba68,
+  m_Shader: {fileID: -6465566751694194690, guid: 0e0ed4054c52f4fafac619f5f84f143d,
     type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 2
@@ -23,7 +23,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _FoamTexture:
-        m_Texture: {fileID: 2800000, guid: 5ab8a46db5b8649f3b770059f23cc81c, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_6CE6266F_Texture_1:
@@ -45,15 +45,15 @@ Material:
     - WaterExpose: 0.5
     - WaterMask: 1
     - _Alpha: 1
-    - _Depth: -52.5
-    - _FoamDistance: -42.45
+    - _Depth: 0
+    - _FoamDistance: 0
     - _FoamStrenght: 0.0089
-    - _FoamTile: 1
+    - _FoamTile: 0
     - _ForamTile: 0
     - _Metallic: 0.68
-    - _NormalStrenght: 0.1
+    - _NormalStrenght: 0.46
     - _NormalTile: 0.01
-    - _Smoothness: 1
+    - _Smoothness: 0.8
     - _Specular: 0.6
     - _WaterScale: 0.19
     - _WaterSpeed: 0.5

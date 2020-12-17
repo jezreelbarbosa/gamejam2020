@@ -119,6 +119,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2792767722142353702}
+  - component: {fileID: -4560500019072207387}
   m_Layer: 0
   m_Name: Timao Duplo
   m_TagString: Untagged
@@ -142,78 +143,92 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &7853520831347515780
+--- !u!64 &-4560500019072207387
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3281496708483683228}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 5334443999579200692, guid: 77cc7c4cd7eee4831ad10c33cb8db1ce, type: 3}
+--- !u!1001 &1028075818855517547
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 6343070459060655830}
     m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: 5a7d6f4425a8f4419ab368a81e7cc4c2,
+    - target: {fileID: 7292316711912033028, guid: 8d96ac993a7134f39a275a1d3fa8617c,
         type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.0063705444
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 5a7d6f4425a8f4419ab368a81e7cc4c2,
+    - target: {fileID: 7292316711912033028, guid: 8d96ac993a7134f39a275a1d3fa8617c,
         type: 3}
       propertyPath: m_LocalPosition.y
       value: -1.6348987
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 5a7d6f4425a8f4419ab368a81e7cc4c2,
+    - target: {fileID: 7292316711912033028, guid: 8d96ac993a7134f39a275a1d3fa8617c,
         type: 3}
       propertyPath: m_LocalPosition.z
       value: -0.39362335
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 5a7d6f4425a8f4419ab368a81e7cc4c2,
+    - target: {fileID: 7292316711912033028, guid: 8d96ac993a7134f39a275a1d3fa8617c,
         type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 5a7d6f4425a8f4419ab368a81e7cc4c2,
+    - target: {fileID: 7292316711912033028, guid: 8d96ac993a7134f39a275a1d3fa8617c,
         type: 3}
       propertyPath: m_LocalRotation.y
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 5a7d6f4425a8f4419ab368a81e7cc4c2,
+    - target: {fileID: 7292316711912033028, guid: 8d96ac993a7134f39a275a1d3fa8617c,
         type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 5a7d6f4425a8f4419ab368a81e7cc4c2,
+    - target: {fileID: 7292316711912033028, guid: 8d96ac993a7134f39a275a1d3fa8617c,
         type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 5a7d6f4425a8f4419ab368a81e7cc4c2,
+    - target: {fileID: 7292316711912033028, guid: 8d96ac993a7134f39a275a1d3fa8617c,
         type: 3}
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 5a7d6f4425a8f4419ab368a81e7cc4c2,
+    - target: {fileID: 7292316711912033028, guid: 8d96ac993a7134f39a275a1d3fa8617c,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 5a7d6f4425a8f4419ab368a81e7cc4c2,
+    - target: {fileID: 7292316711912033028, guid: 8d96ac993a7134f39a275a1d3fa8617c,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 5a7d6f4425a8f4419ab368a81e7cc4c2,
+    - target: {fileID: 7292316711912033028, guid: 8d96ac993a7134f39a275a1d3fa8617c,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 5a7d6f4425a8f4419ab368a81e7cc4c2,
+    - target: {fileID: 7960204448454218174, guid: 8d96ac993a7134f39a275a1d3fa8617c,
         type: 3}
       propertyPath: m_Name
       value: "Tima\u0303o"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 5a7d6f4425a8f4419ab368a81e7cc4c2, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 8d96ac993a7134f39a275a1d3fa8617c, type: 3}
 --- !u!4 &7743929575111132783 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5a7d6f4425a8f4419ab368a81e7cc4c2,
+  m_CorrespondingSourceObject: {fileID: 7292316711912033028, guid: 8d96ac993a7134f39a275a1d3fa8617c,
     type: 3}
-  m_PrefabInstance: {fileID: 7853520831347515780}
+  m_PrefabInstance: {fileID: 1028075818855517547}
   m_PrefabAsset: {fileID: 0}
