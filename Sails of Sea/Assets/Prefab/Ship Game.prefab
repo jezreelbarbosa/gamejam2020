@@ -1,5 +1,19 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!64 &3626897632313470465
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9026385838606822}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
 --- !u!1 &3626897631472946520
 GameObject:
   m_ObjectHideFlags: 0
@@ -110,7 +124,6 @@ GameObject:
   - component: {fileID: 3626897631582386597}
   - component: {fileID: 3626897631582386596}
   - component: {fileID: 3626897631582386619}
-  - component: {fileID: 3626897631582386618}
   - component: {fileID: 3626897631582386617}
   m_Layer: 0
   m_Name: Ship Game
@@ -175,24 +188,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 32
   m_CollisionDetection: 0
---- !u!114 &3626897631582386618
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3626897631582386616}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6ce2b4dfd0e424577a77c0236fc5e52c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rigidBody: {fileID: 0}
-  depthBeforesubmerged: 1
-  displacementAmount: 3
-  floaterCount: 1
-  waterDrag: 0.99
-  waterAngularDrag: 0.5
 --- !u!23 &3626897631582386617
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -330,20 +325,6 @@ MonoBehaviour:
   floaterCount: 1
   waterDrag: 0.99
   waterAngularDrag: 0.5
---- !u!64 &3626897632313470465
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9026385838606822}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!1001 &3626897631637993621
 PrefabInstance:
   m_ObjectHideFlags: 0
