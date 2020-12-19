@@ -9,7 +9,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 731520916660029934}
-  - component: {fileID: 4238910719728214782}
   m_Layer: 0
   m_Name: BauLowFechado
   m_TagString: Untagged
@@ -25,7 +24,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 296160174300664672}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 28.29, y: -6.2385592, z: -33.62717}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 6241610324911539898}
@@ -33,19 +32,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &4238910719728214782
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 296160174300664672}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 2.1541805, y: 2.0653982, z: 2.3121529}
-  m_Center: {x: -0.019024849, y: 0.9892974, z: -0.0010318756}
 --- !u!1 &6839928166727993998
 GameObject:
   m_ObjectHideFlags: 0
@@ -57,6 +43,7 @@ GameObject:
   - component: {fileID: 8399745372307316458}
   - component: {fileID: 3222454872588913665}
   - component: {fileID: 6491566607649002569}
+  - component: {fileID: 5941049387593859104}
   m_Layer: 0
   m_Name: Bau_Do_Tesouro_pCube8
   m_TagString: Untagged
@@ -73,7 +60,7 @@ Transform:
   m_GameObject: {fileID: 6839928166727993998}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children: []
   m_Father: {fileID: 731520916660029934}
   m_RootOrder: 1
@@ -125,6 +112,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &5941049387593859104
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6839928166727993998}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.544678, y: 0.23440796, z: 1.544678}
+  m_Center: {x: 0, y: 0.86796, z: 0}
 --- !u!1 &9112494185255827063
 GameObject:
   m_ObjectHideFlags: 0
@@ -136,6 +136,7 @@ GameObject:
   - component: {fileID: 6241610324911539898}
   - component: {fileID: 3193879697596314778}
   - component: {fileID: 2093696921704086988}
+  - component: {fileID: 5911486216996037368}
   m_Layer: 0
   m_Name: Bau_Do_Tesouro
   m_TagString: Untagged
@@ -150,13 +151,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9112494185255827063}
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children: []
   m_Father: {fileID: 731520916660029934}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &3193879697596314778
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -204,3 +205,16 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &5911486216996037368
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9112494185255827063}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.197672, y: 2.0889711, z: 2.246408}
+  m_Center: {x: 0, y: 0.9696195, z: 0.010520995}

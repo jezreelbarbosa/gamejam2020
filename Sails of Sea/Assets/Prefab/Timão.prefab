@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4120043140223553659}
   - component: {fileID: 2038760929169032020}
   - component: {fileID: 2871853376793026352}
+  - component: {fileID: 4370970249058708110}
   m_Layer: 0
   m_Name: Timao_Low:Suporte_Timao_DuploTimao_group1
   m_TagString: Untagged
@@ -27,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 6792723382778784665}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children: []
   m_Father: {fileID: 7292316711912033028}
   m_RootOrder: 0
@@ -79,6 +80,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &4370970249058708110
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6792723382778784665}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3842368959814177016, guid: 5a7d6f4425a8f4419ab368a81e7cc4c2, type: 3}
 --- !u!1 &7960204448454218174
 GameObject:
   m_ObjectHideFlags: 0
@@ -88,9 +103,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7292316711912033028}
-  - component: {fileID: 1910660795061847944}
   m_Layer: 0
-  m_Name: "Tima\u0303o"
+  m_Name: "Tim\xE3o"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -104,24 +118,10 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7960204448454218174}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.0063705444, y: -1.6348987, z: -0.39362335}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4120043140223553659}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!64 &1910660795061847944
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7960204448454218174}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -3842368959814177016, guid: 5a7d6f4425a8f4419ab368a81e7cc4c2, type: 3}
