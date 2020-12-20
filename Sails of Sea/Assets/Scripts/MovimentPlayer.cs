@@ -10,11 +10,13 @@ public class MovimentPlayer : MonoBehaviour
 
     public Transform cam;
 
+    public float jumpSpeed = 0.5f;
     public float gravity = 50f;
     public float speed = 10f;
     public float turnSmoothTime = 0.1f;
     float turnSmoothVelocity;
     
+    public Vector3 moveVector;
 
     void Start()
     {
@@ -23,8 +25,17 @@ public class MovimentPlayer : MonoBehaviour
     void Update()
     {        
         
-        Vector3 moveVector = new Vector3 (0f,gravity * Time.deltaTime,0f); 
-        controller.SimpleMove(moveVector);
+      //Vector3 moveVector = new Vector3 (0f,gravity * Time.deltaTime,0f); 
+      // controller.SimpleMove(moveVector);
+      moveVector = new Vector3 (moveVector.x,moveVector.y,moveVector.z); 
+      if(PlayerJumped){
+          moveVector.y = jumpSpeed;
+      }else if(controller.isGrounded){
+          moveVector.y = 0f;
+      }else{
+          moveVector.y -= gravity * Time.deltaTime; 
+      }
+      controller.Move(moveVector);      
 
         float horizontal = Input.GetAxisRaw("Horizontal");
         float vertical = Input.GetAxisRaw("Vertical");
@@ -41,15 +52,7 @@ public class MovimentPlayer : MonoBehaviour
             Vector3 movDir = Quaternion.Euler(0f, targetAngle,0f) * Vector3.forward;
             controller.Move(movDir.normalized *speed * Time.deltaTime );
         }
-        
-        //if ()
-        //{
-        //    animator.SetBool("idle", false);
-       // }
-       // else
-       // {
-       //     animator.SetBool("idle", true);
-       // }
     }
+    private bool PlayerJumped => controller.isGrounded && Input.GetKey(KeyCode.Space);
     
 }

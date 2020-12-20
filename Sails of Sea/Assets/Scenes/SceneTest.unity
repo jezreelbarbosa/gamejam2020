@@ -229,7 +229,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 9df1aa5e5241c4f079d8c9eae791b0ff,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9df1aa5e5241c4f079d8c9eae791b0ff,
         type: 3}
@@ -399,8 +399,8 @@ CharacterController:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Height: 5.73
-  m_Radius: 1.59
+  m_Height: 3.32
+  m_Radius: 0.98
   m_SlopeLimit: 45
   m_StepOffset: 1.5
   m_SkinWidth: 0.08
@@ -420,9 +420,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controller: {fileID: 424783635}
   cam: {fileID: 1579871297}
-  gravity: 50
+  jumpSpeed: 0.5
+  gravity: 9.8
   speed: 15
   turnSmoothTime: 0.2
+  moveVector: {x: 0, y: 0, z: 0}
+--- !u!114 &424783637
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 424783633}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cde5aa4096eac634aa1dc8b145f7fde2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _moveSpeed: 10
+  _jumpSpeed: 0.5
+  _gravity: 2
 --- !u!1 &464383874
 GameObject:
   m_ObjectHideFlags: 0
@@ -871,7 +888,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 841094915}
-  m_LocalRotation: {x: 0.1666555, y: 0.79255384, z: -0.24860393, w: 0.5313007}
+  m_LocalRotation: {x: 0.17225114, y: 0.78988713, z: -0.25695115, w: 0.52951306}
   m_LocalPosition: {x: -28.45136, y: 23.890549, z: -22.648445}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -1339,7 +1356,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1579871294}
-  m_LocalRotation: {x: 0.1666555, y: 0.79255384, z: -0.24860393, w: 0.5313007}
+  m_LocalRotation: {x: 0.17225114, y: 0.78988713, z: -0.25695115, w: 0.52951306}
   m_LocalPosition: {x: -28.45136, y: 23.890549, z: -22.648445}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -1436,7 +1453,7 @@ PrefabInstance:
     - target: {fileID: 417718483136804889, guid: 8986c79106394402b999fca70204b8bd,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 417718483136804889, guid: 8986c79106394402b999fca70204b8bd,
         type: 3}
