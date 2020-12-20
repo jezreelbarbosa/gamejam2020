@@ -26,12 +26,11 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 6241610324911539898}
-  - {fileID: 8399745372307316458}
+  m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< Updated upstream
 --- !u!1 &6839928166727993998
 GameObject:
   m_ObjectHideFlags: 0
@@ -206,15 +205,27 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
 --- !u!65 &5911486216996037368
+=======
+--- !u!65 &4238910719728214782
+>>>>>>> Stashed changes
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
   m_GameObject: {fileID: 9112494185255827063}
+=======
+  m_GameObject: {fileID: 296160174300664672}
+>>>>>>> Stashed changes
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
+<<<<<<< Updated upstream
   m_Size: {x: 2.197672, y: 2.0889711, z: 2.246408}
   m_Center: {x: 0, y: 0.9696195, z: 0.010520995}
+=======
+  m_Size: {x: 2.1541805, y: 2.0653982, z: 2.3121529}
+  m_Center: {x: -0.019024849, y: 0.9892974, z: -0.0010318756}
+>>>>>>> Stashed changes
