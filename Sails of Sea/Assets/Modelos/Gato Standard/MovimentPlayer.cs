@@ -10,13 +10,13 @@ public class MovimentPlayer : MonoBehaviour
 
     public Transform cam;
 
-    public float jumpSpeed = 0.5f;
-    public float gravity = 50f;
+    public float jumpSpeed = 0.2f;
+    public float gravity = 0.5f;
     public float speed = 10f;
     public float turnSmoothTime = 0.1f;
     float turnSmoothVelocity;
     
-    public Vector3 moveVector;
+    Vector3 moveVector;
 
     void Start()
     {
@@ -25,8 +25,7 @@ public class MovimentPlayer : MonoBehaviour
     void Update()
     {        
         
-      //Vector3 moveVector = new Vector3 (0f,gravity * Time.deltaTime,0f); 
-      // controller.SimpleMove(moveVector);
+     
       moveVector = new Vector3 (moveVector.x,moveVector.y,moveVector.z); 
       if(PlayerJumped){
           moveVector.y = jumpSpeed;
