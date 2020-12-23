@@ -22,6 +22,10 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _EmissionTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _FoamTexture:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -36,6 +40,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - Alpha: 0
+    - Emission_Speed: 0
     - Vector1_33DB0945: 0.62
     - Vector1_5F2086E5: 5.73
     - Vector1_7B8830CC: 1
@@ -46,8 +51,13 @@ Material:
     - WaterMask: 1
     - _Alpha: 1
     - _Depth: 0
+    - _Depth_1: 0
+    - _EmissionStrenght: 0
+    - _EmissionTile: 0
+    - _Emission_Speed_2: 0
     - _FoamDistance: 0
     - _FoamStrenght: 0.0089
+    - _FoamStrenght_1: 0
     - _FoamTile: 0
     - _ForamTile: 0
     - _Metallic: 0.68
@@ -70,6 +80,7 @@ Material:
     - WaveDirection: {r: 10, g: 10, b: 0, a: 0}
     - WaveForm: {r: 0.15, g: 0.1, b: 0, a: 0}
     - _DephtColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Specular: {r: 0, g: 0, b: 0, a: 0}
     - _WaterA: {r: 0, g: 0.63818, b: 0.6509434, a: 1}
     - _WaterB: {r: 0, g: 0.73333335, b: 1, a: 1}
     - _WavesFrequence: {r: 0.1, g: -0.03, b: 0, a: 0}

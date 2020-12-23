@@ -27,7 +27,7 @@ Material:
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
+  m_CustomRenderQueue: 3000
   stringTagMap: {}
   disabledShaderPasses:
   - SHADOWCASTER
@@ -85,25 +85,27 @@ Material:
     - _BumpScale: 1
     - _Cull: 2
     - _Cutoff: 0.5
-    - _Depth: 0.98
+    - _Depth: 1.52
+    - _Depth_1: 0.07
     - _DstBlend: 10
-    - _EmissionStrenght: 0.06
-    - _EmissionTile: 0.02
+    - _EmissionStrenght: 0.02
+    - _EmissionTile: 0.03
     - _Emission_Speed_2: -0.62
     - _EnvironmentReflections: 1
     - _FoamDistance: 0
-    - _FoamStrenght: -0.64
+    - _FoamStrenght: 0.02
+    - _FoamStrenght_1: 5.94
     - _FoamTile: 0
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
-    - _Metallic: 0.91
-    - _NormalStrenght: 0.05
-    - _NormalTile: 0.01
+    - _Metallic: 0.78
+    - _NormalStrenght: 0.4
+    - _NormalTile: 0.02
     - _OcclusionStrength: 1
     - _QueueOffset: 0
     - _ReceiveShadows: 1
-    - _Smoothness: 0.97
+    - _Smoothness: -0.12
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 5
@@ -114,7 +116,7 @@ Material:
     - _WaterTile: 0
     - _WorkflowMode: 0
     - _ZWrite: 0
-    - _normalSpeed: -10
+    - _normalSpeed: 10
     m_Colors:
     - Vector2_693284B7: {r: 1, g: 0.3, b: 0, a: 0}
     - Vector2_FEE73F25: {r: -1, g: 0, b: 0, a: 0}
@@ -125,6 +127,6 @@ Material:
     - _DephtColor: {r: 1, g: 1, b: 1, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
-    - _Specular: {r: 0, g: 0.5726497, b: 1, a: 0}
-    - _WaterA: {r: 0.12629052, g: 0.612583, b: 0.8113208, a: 1}
-    - _WaterB: {r: 0.03818085, g: 0.14277793, b: 0.24528301, a: 1}
+    - _Specular: {r: 1, g: 1, b: 1, a: 0}
+    - _WaterA: {r: 0.05980776, g: 0.2565614, b: 0.6037736, a: 1}
+    - _WaterB: {r: 0, g: 0.6467066, b: 1, a: 1}
