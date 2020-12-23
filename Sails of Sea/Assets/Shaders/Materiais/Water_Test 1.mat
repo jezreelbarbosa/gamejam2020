@@ -75,35 +75,35 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Emission_Speed: 7
+    - Emission_Speed: 4
     - Vector1_7654D22: 20
     - WaterExpose: 0
     - WaterMask: 0
-    - _Alpha: 1
+    - _Alpha: 0.46
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
     - _Cull: 2
     - _Cutoff: 0.5
-    - _Depth: 0
+    - _Depth: 0.98
     - _DstBlend: 10
-    - _EmissionStrenght: 0.03
-    - _EmissionTile: 0.01
-    - _Emission_Speed_2: -0.8
+    - _EmissionStrenght: 0.06
+    - _EmissionTile: 0.02
+    - _Emission_Speed_2: -0.62
     - _EnvironmentReflections: 1
     - _FoamDistance: 0
-    - _FoamStrenght: 0
+    - _FoamStrenght: -0.64
     - _FoamTile: 0
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
-    - _Metallic: 0.78
-    - _NormalStrenght: -0.56
+    - _Metallic: 0.91
+    - _NormalStrenght: 0.05
     - _NormalTile: 0.01
     - _OcclusionStrength: 1
     - _QueueOffset: 0
     - _ReceiveShadows: 1
-    - _Smoothness: 1
+    - _Smoothness: 0.97
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 5
@@ -125,6 +125,6 @@ Material:
     - _DephtColor: {r: 1, g: 1, b: 1, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
-    - _Specular: {r: 0.051397298, g: 0.1078265, b: 0.1981132, a: 0}
-    - _WaterA: {r: 0, g: 0.7069087, b: 1, a: 1}
-    - _WaterB: {r: 0.5518868, g: 0.77845967, b: 1, a: 1}
+    - _Specular: {r: 0, g: 0.5726497, b: 1, a: 0}
+    - _WaterA: {r: 0.12629052, g: 0.612583, b: 0.8113208, a: 1}
+    - _WaterB: {r: 0.03818085, g: 0.14277793, b: 0.24528301, a: 1}
