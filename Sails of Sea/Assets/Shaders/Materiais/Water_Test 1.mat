@@ -21,13 +21,13 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Water_Test 1
-  m_Shader: {fileID: -6465566751694194690, guid: 0e0ed4054c52f4fafac619f5f84f143d,
+  m_Shader: {fileID: -6465566751694194690, guid: 118f85a516ab5488387b61fdb36f2020,
     type: 3}
   m_ShaderKeywords: _SPECULAR_SETUP
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 3000
+  m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses:
   - SHADOWCASTER
@@ -93,7 +93,7 @@ Material:
     - _Emission_Speed_2: -0.62
     - _EnvironmentReflections: 1
     - _FoamDistance: 0
-    - _FoamStrenght: 0.02
+    - _FoamStrenght: -0.88
     - _FoamStrenght_1: 5.94
     - _FoamTile: 0
     - _GlossMapScale: 0
@@ -105,7 +105,7 @@ Material:
     - _OcclusionStrength: 1
     - _QueueOffset: 0
     - _ReceiveShadows: 1
-    - _Smoothness: -0.12
+    - _Smoothness: 0.25
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 5
@@ -127,6 +127,6 @@ Material:
     - _DephtColor: {r: 1, g: 1, b: 1, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
-    - _Specular: {r: 1, g: 1, b: 1, a: 0}
-    - _WaterA: {r: 0.05980776, g: 0.2565614, b: 0.6037736, a: 1}
-    - _WaterB: {r: 0, g: 0.6467066, b: 1, a: 1}
+    - _Specular: {r: 0, g: 0, b: 0, a: 0}
+    - _WaterA: {r: 0, g: 0.069182426, b: 0.20754719, a: 1}
+    - _WaterB: {r: 0, g: 0.21228226, b: 0.46226418, a: 1}
